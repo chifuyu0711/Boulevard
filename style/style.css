@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header_nav{
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25); 
+}
+
+.header_nav_list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 6px 0;
+}
+
+.header_nav_link{
+    font-family: 'MB';
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.nav_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav_right a{
+    display: flex;
+    gap: 25px;
+}
+
+.header_bg{
+    background: url(../img/Header.jpg) center center/cover;
+    height: 800px;
+}
+
+.header_bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: 38px;
+}
+
+
+.header_h1{
+    font-family: 'PR';
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+
+.header_btn{
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #171718;
+    padding: 13px 14px;
+    font-family: 'MM';
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main{
+    background:#151515;
+}
+
+.main_section{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.main_box_left{
+    max-width: 538px;
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+
+.main_box_text{
+    font-family: 'MM';
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.main_box_right{
+    padding: 30px 0 50px 0;
+}
+
+.main_section2{
+    display: flex;
+    gap: 87px;
+}
+
+.main__box_right{
+    max-width: 540px;
+    width: 100%;
+    padding-top: 152px;
+}
+
+.main__box_text{
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    font-family: 'MM';
+}
+
+.main_section3{
+    display: flex;
+    gap: 13px;
+    padding-top: 50px;
+    padding-bottom: 79px;
+}
+
+.main_section3_left,
+.main_section3_right{
+    max-width: 333px;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 115px;
+}
+
+.section3_left_text{
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'MB';
+    text-align: right;
+}
+
+.section3_right_text{
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'MB';
+}
+
+.main_section3_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.main_section3_img::before,
+.main_section3_img::after{
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+}
+
+.iphone{
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 55px;
+}
+
+.main_box_item{
+    width: 25%;
+    background: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.main_item_title{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'MB';
+    text-align: center;
+}
+
+.main_item_text{
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    font-family: 'MR';
+    text-transform: uppercase;
+}
+
+.main_item_btn{
+    background: #151515;
+    margin-top: 10px;
+    padding: 7px 57px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.main_item_btn a{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'MB';
+    color: #FFFFFF;
+}
+
+.footer{
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.footer_box{
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 53px 15px;
+}
+
+.footer_box_list{
+    display: flex;
+    gap: 30px;
+}
+
+.footer_box_link{
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'MB';
+}
+
+.footer_box_cards{
+   display: flex;
+   gap: 30px;
+}
